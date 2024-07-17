@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .header, .footer, .sign_up {
@@ -25,21 +27,21 @@ body {
 ul {
     display: flex;
     gap: 8px;
-    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-  
-  li {
-    margin-bottom: 16px;
-  }
-  
-  a {
+}
+
+a {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
-  }
+}
+
+.content {
+    flex: 1;
+}
+
 
 .footer {
     display: flex;
