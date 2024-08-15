@@ -11,10 +11,16 @@ body {
     background-color: #1F2937;
 }
 
+.main_text {
+    font-size: 48px; 
+    font-weight: extra-bold;
+}
+
 .header{
     display: flex;
     height: 72px;
     justify-content: space-between;
+    text-wrap: nowrap;
     align-items: center;
     padding: 0px 200px;
 }
@@ -24,9 +30,44 @@ body {
     margin-right: auto;
 }
 
+.sign_up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 200px;    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 32px;
+    width: 120px;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    
+}
+
+.placeholder {
+    height: 200px;
+    width: 450px;
+    margin: 100px;
+}
+
 ul {
     display: flex;
-    gap: 8px;
+    gap: 16px;
     list-style-type: none;
     margin: 0;
     padding: 0;
